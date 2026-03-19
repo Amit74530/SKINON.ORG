@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collagen Elixir – Skinon Nutracosmetics</title>
+    <meta name="description" content="Collagen Elixir by Skinon – Advanced Hydrolyzed Collagen formula to reduce fine lines, improve elasticity and promote youthful glowing skin from within.">
+    <link rel="stylesheet" href="product-detail.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Top bar -->
+<div class="pd-topbar">
+    <a href="index.html#products" class="pd-back-btn">
+        <i class="fas fa-arrow-left"></i> Back to Products
+    </a>
+    <a href="index.html" class="pd-topbar-logo">Skin<span>on</span><span style="font-size:.75rem;vertical-align:super;font-weight:500">Nutra</span></a>
+</div>
+
+<!-- Hero -->
+<section class="pd-hero">
+    <div class="container">
+        <div class="pd-hero-inner">
+
+            <!-- Image gallery -->
+            <div class="pd-gallery">
+                <div class="pd-main-img-wrap">
+                    <img src="products/anti ageing.webp" alt="Collagen Elixir bottle" class="pd-main-img" id="pdMainImg">
+                </div>
+                <div class="pd-thumbs">
+                    <div class="pd-thumb active" onclick="setImg(this,'products/anti ageing.webp')">
+                        <img src="products/anti ageing.webp" alt="Collagen Elixir front">
+                    </div>
+                    <!-- Add more thumb images here as needed -->
+                </div>
+            </div>
+
+            <!-- Product info -->
+            <div class="pd-info">
+                <span class="pd-badge">Anti-Ageing</span>
+                <h1>Collagen Elixir</h1>
+                <p class="pd-tagline">Advanced Formula with Hydrolyzed Collagen</p>
+
+                <div class="pd-rating">
+                    <span class="pd-stars">★★★★★</span>
+                    <span class="pd-rating-count">4.8 / 5 &nbsp;·&nbsp; 124 reviews</span>
+                </div>
+
+                <div class="pd-price-block">
+                    <div class="pd-price-row">
+                        <span class="pd-price">₹999</span>
+                        <span class="pd-mrp">₹1,499</span>
+                        <span class="pd-discount">33% OFF</span>
+                    </div>
+                    <p class="pd-tax-note">Inclusive of all taxes &nbsp;·&nbsp; Free delivery above ₹499</p>
+                </div>
+
+                <div class="pd-chips">
+                    <span class="pd-chip"><i class="fas fa-check"></i> Reduces Fine Lines</span>
+                    <span class="pd-chip"><i class="fas fa-check"></i> Improves Elasticity</span>
+                    <span class="pd-chip"><i class="fas fa-check"></i> Deep Hydration</span>
+                    <span class="pd-chip"><i class="fas fa-check"></i> Youthful Glow</span>
+                </div>
+
+                <div class="pd-trust">
+                    <span class="pd-trust-item"><i class="fas fa-flask"></i> Clinically Tested</span>
+                    <span class="pd-trust-item"><i class="fas fa-leaf"></i> Vegan Friendly</span>
+                    <span class="pd-trust-item"><i class="fas fa-shield-alt"></i> USFDA Compliant</span>
+                   
+                </div>
+
+                <div class="pd-actions">
+                    <a href="https://amzn.in/d/7fDSH8P" target="_blank" class="pd-btn-primary">
+                        <i class="fas fa-shopping-cart"></i> Buy Now on Amazon
+                    </a>
+                    <a href="https://wa.me/917895193023?text=Hi%20Skinon%20Team%2C%20I%27m%20interested%20in%20Collagen%20Elixir.%20Please%20share%20details." target="_blank" class="pd-btn-secondary">
+                        <i class="fab fa-whatsapp"></i> Enquire on WhatsApp
+                    </a>
+                </div>
+
+                <a href="https://wa.me/917895193023" target="_blank" class="pd-whatsapp">
+                    <i class="fab fa-whatsapp"></i> Chat with our skin experts
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Detail tabs -->
+<section class="pd-body">
+    <div class="container">
+        <div class="pd-tabs">
+            <button class="pd-tab active" onclick="switchTab(this,'tab-desc')">Description</button>
+            <button class="pd-tab" onclick="switchTab(this,'tab-benefits')">Benefits</button>
+            <button class="pd-tab" onclick="switchTab(this,'tab-ingredients')">Ingredients</button>
+            <button class="pd-tab" onclick="switchTab(this,'tab-howtouse')">How to Use</button>
+            <button class="pd-tab" onclick="switchTab(this,'tab-reviews')">Reviews</button>
+        </div>
+
+        <!-- Description -->
+        <div class="pd-tab-panel active" id="tab-desc">
+            <div class="pd-description">
+                <h2>About Collagen Elixir</h2>
+                <p>Collagen Elixir by Skinon is a premium nutracosmetic formulated with clinically studied Hydrolyzed Collagen Peptides — the building blocks your skin needs to stay firm, smooth and radiant. As we age, our body's collagen production naturally declines, leading to fine lines, loss of elasticity and dull-looking skin.</p>
+                <p>Collagen Elixir bridges this gap by delivering bioavailable Type I and Type III collagen peptides directly to the dermis layer, where they stimulate natural collagen synthesis, lock in moisture, and visibly reduce the depth of wrinkles within 4–8 weeks of daily use.</p>
+                <p>Formulated without artificial colours, flavours or preservatives. Suitable for all skin types. Vegan-compatible capsule shell.</p>
+            </div>
+        </div>
+
+        <!-- Benefits -->
+        <div class="pd-tab-panel" id="tab-benefits">
+            <ul class="pd-benefits-list">
+                <li><i class="fas fa-check-circle"></i> Visibly reduces fine lines and wrinkles within 4 weeks</li>
+                <li><i class="fas fa-check-circle"></i> Improves skin elasticity and firmness</li>
+                <li><i class="fas fa-check-circle"></i> Enhances skin hydration and moisture retention</li>
+                <li><i class="fas fa-check-circle"></i> Promotes a natural youthful glow</li>
+                <li><i class="fas fa-check-circle"></i> Strengthens nails and supports hair health</li>
+                <li><i class="fas fa-check-circle"></i> Supports joint comfort and flexibility</li>
+                <li><i class="fas fa-check-circle"></i> Free from harmful additives</li>
+                <li><i class="fas fa-check-circle"></i> Suitable for daily long-term use</li>
+            </ul>
+        </div>
+
+        <!-- Ingredients -->
+        <div class="pd-tab-panel" id="tab-ingredients">
+            <div class="pd-ingredients">
+                <h2>Key Ingredients</h2>
+                <div class="pd-ing-grid">
+                    <div class="pd-ing-card">
+                        <div class="pd-ing-name">Hydrolyzed Collagen</div>
+                        <div class="pd-ing-dose">500 mg</div>
+                        <div class="pd-ing-desc">Type I & III peptides for skin, hair and joints</div>
+                    </div>
+                    <div class="pd-ing-card">
+                        <div class="pd-ing-name">Vitamin C</div>
+                        <div class="pd-ing-dose">40 mg</div>
+                        <div class="pd-ing-desc">Boosts collagen synthesis & fights free radicals</div>
+                    </div>
+                    <div class="pd-ing-card">
+                        <div class="pd-ing-name">Hyaluronic Acid</div>
+                        <div class="pd-ing-dose">50 mg</div>
+                        <div class="pd-ing-desc">Retains up to 1000x its weight in moisture</div>
+                    </div>
+                    <div class="pd-ing-card">
+                        <div class="pd-ing-name">Coenzyme Q10</div>
+                        <div class="pd-ing-dose">30 mg</div>
+                        <div class="pd-ing-desc">Antioxidant that protects cells from oxidative stress</div>
+                    </div>
+                    <div class="pd-ing-card">
+                        <div class="pd-ing-name">Biotin</div>
+                        <div class="pd-ing-dose">30 mcg</div>
+                        <div class="pd-ing-desc">Supports keratin production for skin and hair</div>
+                    </div>
+                    <div class="pd-ing-card">
+                        <div class="pd-ing-name">Zinc</div>
+                        <div class="pd-ing-dose">8 mg</div>
+                        <div class="pd-ing-desc">Essential mineral for skin repair and renewal</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- How to use -->
+        <div class="pd-tab-panel" id="tab-howtouse">
+            <div class="pd-howtouse">
+                <h2>How to Use</h2>
+                <ol class="pd-steps">
+                    <li class="pd-step">
+                        <span class="pd-step-num">1</span>
+                        <span class="pd-step-text">Take <strong>2 capsules</strong> daily, preferably in the morning or as directed by your healthcare professional.</span>
+                    </li>
+                    <li class="pd-step">
+                        <span class="pd-step-num">2</span>
+                        <span class="pd-step-text">Swallow with a full glass of <strong>water or warm milk</strong>. Do not chew.</span>
+                    </li>
+                    <li class="pd-step">
+                        <span class="pd-step-num">3</span>
+                        <span class="pd-step-text">For best results, <strong>use consistently for at least 8 weeks</strong>. Results may vary by individual.</span>
+                    </li>
+                    <li class="pd-step">
+                        <span class="pd-step-num">4</span>
+                        <span class="pd-step-text">Pair with adequate hydration (2–3 litres of water daily) and a balanced diet rich in Vitamin C for optimal collagen synthesis.</span>
+                    </li>
+                    <li class="pd-step">
+                        <span class="pd-step-num">5</span>
+                        <span class="pd-step-text">Store in a <strong>cool, dry place</strong> away from direct sunlight. Keep out of reach of children.</span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Reviews -->
+        <div class="pd-tab-panel" id="tab-reviews">
+            <div class="pd-reviews">
+                <h2>Customer Reviews</h2>
+                <div class="pd-review-card">
+                    <div class="pd-reviewer">
+                        <span class="pd-reviewer-name">Sarah J.</span>
+                        <span class="pd-review-stars">★★★★★</span>
+                    </div>
+                    <p class="pd-review-text">After using Collagen Elixir for just 4 weeks, I've noticed a significant improvement in my skin's texture and elasticity. My fine lines have diminished and I feel more confident than ever!</p>
+                    <p class="pd-review-date">January 15, 2025 · Verified Purchase</p>
+                </div>
+                <div class="pd-review-card">
+                    <div class="pd-reviewer">
+                        <span class="pd-reviewer-name">Priya M.</span>
+                        <span class="pd-review-stars">★★★★★</span>
+                    </div>
+                    <p class="pd-review-text">I was sceptical at first but after 2 months of consistent use, my skin looks visibly plumper and my friends keep asking me what I'm doing differently. Highly recommend!</p>
+                    <p class="pd-review-date">March 2, 2025 · Verified Purchase</p>
+                </div>
+                <div class="pd-review-card">
+                    <div class="pd-reviewer">
+                        <span class="pd-reviewer-name">Anita R.</span>
+                        <span class="pd-review-stars">★★★★☆</span>
+                    </div>
+                    <p class="pd-review-text">Good product, no aftertaste and easy to swallow. My nails have become noticeably stronger. Took about 6 weeks to see skin results but they are definitely there.</p>
+                    <p class="pd-review-date">February 18, 2025 · Verified Purchase</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Related products -->
+<section class="pd-related">
+    <div class="container">
+        <h2>You May Also Like</h2>
+        <div class="pd-related-grid">
+            <a href="product-glow.html" class="pd-related-card">
+                <div class="pd-related-img-wrap">
+                    <img src="products/skin glow.webp" alt="Glow Enhancer" class="pd-related-img">
+                </div>
+                <div class="pd-related-info">
+                    <h3>Glow Enhancer</h3>
+                    <span class="pd-related-price">₹849 <span style="font-size:.78rem;color:#aaa;font-weight:400;text-decoration:line-through;margin-left:4px">₹1,299</span></span>
+                </div>
+            </a>
+            <a href="product-metabolic.html" class="pd-related-card">
+                <div class="pd-related-img-wrap">
+                    <img src="products/slim product.webp" alt="Metabolic Boost" class="pd-related-img">
+                </div>
+                <div class="pd-related-info">
+                    <h3>Metabolic Boost</h3>
+                    <span class="pd-related-price">₹899 <span style="font-size:.78rem;color:#aaa;font-weight:400;text-decoration:line-through;margin-left:4px">₹1,399</span></span>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer class="pd-footer">
+    <p>&copy; 2025 SkinonNutra. All rights reserved. &nbsp;·&nbsp; <a href="index.html">Back to Home</a></p>
+</footer>
+
+<script>
+    function switchTab(btn, panelId) {
+        document.querySelectorAll('.pd-tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.pd-tab-panel').forEach(p => p.classList.remove('active'));
+        btn.classList.add('active');
+        document.getElementById(panelId).classList.add('active');
+    }
+
+    function setImg(thumb, src) {
+        document.getElementById('pdMainImg').src = src;
+        document.querySelectorAll('.pd-thumb').forEach(t => t.classList.remove('active'));
+        thumb.classList.add('active');
+    }
+</script>
+
+</body>
+</html>
